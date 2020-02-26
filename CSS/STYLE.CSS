@@ -1,36 +1,18 @@
-body {
-    background-color: rgb(205, 207, 211);
+#main {
+    height: 100vh;
+    
+    background-color: rgb(230, 227, 228);
 }
-
-.navbar-brand {
-    /* background-color: hotpink; */
-    margin-top: 0px;
-    margin-left: 20px;
-}
-
-
-
-#maincon {
-    background-color: white;
-    margin: 30px;
-    padding: 15px;
-    width: 70%;
-}
+/* #fillplease {
+    background-color:lightblue;
+} */
 
 img {
     float: left;
     padding-left: 8px;
   }
+#fancytext {
+    font-family: 'DM Serif Text' !important;
+}
 
-  hr { 
-    border-width: 2px;
-  } 
 
-
-  #sticky-footer {
-    flex-shrink: none;
-  }
-
-/* #headings {
-      color: hotpink;
-  } */
