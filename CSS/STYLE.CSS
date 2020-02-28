@@ -15,12 +15,17 @@ img {
     /* font-size: 1.5em; */
 }
 
-.buttholes {
+.mystyle {
     right: 1em;
     color: magenta;
     z-index: 100;
+    width: 200px;
+    left: 8px;
+    height: 40px;
+    text-align: center;
+    padding-top: 8px;
+    margin-top: 132px;
   }
-
 
 @media (max-width: 640px) {
     .maincon {
