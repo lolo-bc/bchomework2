@@ -1,9 +1,14 @@
 #main {
-    height: 100vh;
-    /* width: 100vw; */
+    height: 100%;
+    
+    min-height: 100%;
+    width: 100%;
     background-color: rgb(230, 227, 228);
+    margin-bottom: 70px;
 }
-
+hr {
+    z-index: 5;
+}
 img {
     float: left;
     padding-left: 8px;
@@ -17,9 +22,8 @@ img {
 
 .mystyle {
     right: 1em;
-    color: magenta;
     z-index: 100;
-    width: 200px;
+    width: 300px;
     left: 8px;
     height: 40px;
     text-align: center;
@@ -27,29 +31,11 @@ img {
     margin-top: 132px;
   }
 
-@media (max-width: 640px) {
-    .maincon {
-      margin: 30px !important;
-    }
-
-    /* .card-title {
-        height:30%;
-        width: 100%;
-        background-color:rgb(235, 20, 20);
-        opacity: 100%;
-    } */
-
-
-   
-      
-  
-    /* body {
-      padding:0;
-    }
-
-    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
-      margin-left: 0;
-      margin-right: 0;
-      margin-bottom:0;
-    } */
+@media (min-width: 640px) {
+    #main {}
 }
+
+@media (min-width: 768px) 
+
+@media (min-width: 980px) 
+
